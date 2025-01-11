@@ -1,0 +1,11 @@
+.select-date {
+    display: flex;
+    flex-direction: column;
+}
+
+#date-input {
+    margin: 10px;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 2px;
+}

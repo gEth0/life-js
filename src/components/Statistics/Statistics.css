@@ -1,0 +1,7 @@
+.statistics-container {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
