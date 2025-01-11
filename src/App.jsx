@@ -9,11 +9,13 @@ function App() {
   const [values, setValues] = useState();
 
   return (
-    <>
+    <div className="app-container">
       <NavBar date={date} values={values} />
-      <Page date={date} setDate={setDate} setValues={setValues} values={values} />
+      <div className="content">
+        <Page date={date} setDate={setDate} setValues={setValues} values={values} />
+      </div>
       <Footer />
-    </>
+    </div>
   )
 }
 

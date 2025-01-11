@@ -6,9 +6,7 @@ import "./Statistics.css";
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const Statistics = ({ values, date }) => {
-    useEffect(() => {
-        console.log(values);
-    }, [values]);
+
 
     const data = {
         labels: ["Weeks Lived", "Weeks until you turn 95"],
