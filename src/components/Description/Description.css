@@ -4,3 +4,7 @@
     align-items: center;
     margin: 20px;
 }
+
+p {
+    text-align: justify;
+}

@@ -20,7 +20,7 @@ const Grid = ({ date, setValues, values }) => {
 
     return array.length > 0 ? (
         <>
-            <strong>{calculateYear(date, 0)}</strong>
+            <strong> <u> {calculateYear(date, 0)} </u></strong>
             <div className="grid-container">
 
                 {array.map((item, index) => (
@@ -28,11 +28,11 @@ const Grid = ({ date, setValues, values }) => {
                 ))}
 
             </div>
-            <strong>{calculateYear(date, 95)}</strong>
+            <strong> <u> {calculateYear(date, 95)} </u> </strong>
         </>
     ) : (
         <div className="grid-container">
-            <h1>Please enter your birth date</h1>
+
         </div>
     );
 }

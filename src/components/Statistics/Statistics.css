@@ -4,4 +4,22 @@
     flex-direction: column;
     align-items: flex-start;
     margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.statistics-item {
+    margin-bottom: 20px;
+}
+
+.statistics-item p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.statistics-item canvas {
+    max-width: 100%;
+    height: auto;
 }

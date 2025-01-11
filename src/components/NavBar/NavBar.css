@@ -1,6 +1,6 @@
 .nav-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 0 20px;
     background-color: #333;
@@ -9,4 +9,14 @@
 
 #nav-title {
     font-size: 1.5rem;
+}
+
+#pdf-btn {
+    height: 30px;
+    width: fit-content;
+    border: 1px solid white;
+    font-weight: bolder;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
 }
