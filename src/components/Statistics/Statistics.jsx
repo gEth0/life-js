@@ -13,8 +13,8 @@ const Statistics = ({ values, date }) => {
         datasets: [
             {
                 data: values ? [values[1], values[0] - values[1]] : [0, 0],
-                backgroundColor: ["#4caf50", "#b0b0b0"], // Green for weeks lived, gray for weeks remaining
-                hoverBackgroundColor: ["#66bb6a", "#d3d3d3"], // Lighter green and gray on hover
+                backgroundColor: ["#4caf50", "#b0b0b0"],
+                hoverBackgroundColor: ["#66bb6a", "#d3d3d3"],
             },
         ],
     };
